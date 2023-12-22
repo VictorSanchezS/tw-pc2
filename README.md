@@ -7,4 +7,27 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## For run this project, you need install:
+Composer
+Xampp
+Nodejs
+
+## then run this commands:
+- composer install
+- cp .env.example .env
+change database name to tw-pc2
+- php artisan key:generate
+- php artisan migrate --seed
+- php artisan serve
+
+## Users to system:
+
+email:superadmin@gmail.com
+password:superadmin1234
+
+email:admin@gmail.com
+password:admin1234
+
+email:academicmanager@gmail.com
+password:academicmanager1234
+
